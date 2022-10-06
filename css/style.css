@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box 0;
+}
+
+body {
+    background-color: #FBFAFB;
+}
+
+div {
+    position: relative;
+    height: 200px;
+    margin: auto;
+}
+
+ul {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #02233C;
+}
+
+section {
+    margin: auto;
+    width: 1110px;
+}
+
+div {
+    position: relative;
+    height: 200px;
+    margin: auto;
+}
+
+li:hover a {
+    color: #C72038;
+}
+
+article {
+    margin-top: 65px;
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    width: 732px;
+    margin: auto;
+    color: #02233C;
+}
+
+h2 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 33px;
+    margin: top 16px;
+    margin: bottom 16px;
+    margin-top: 65px;
+    margin-bottom: 35px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    margin-top: 20px;
+    margin-top: 65px;
+    margin-bottom: 35px;
+}
+
+footer {
+    background: #01213A;
+    display: flex;
+    justify-content: space-around;
+    gap: 650px;
+    align-items: center;
+    height: 100px;
+}
+
+span{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+cite {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
